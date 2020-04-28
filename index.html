@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LifeCoach</title>
+  <link rel="icon" href="./IMG/Logo.png" type="images/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./OWL-Carousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="./OWL-Carousel/dist/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./COMPONETS/style.css">
+</head>
+
+<body>
+  <div id="shadow"></div>
+  <div class="loader ">
+    <div class="spinner-border text-warning" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  <div class="FirstNav">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="phone">
+            <a href="">
+              <span><i class="fas fa-phone-alt"></i></span> +00 1234 567
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <ul class="socialUl d-flex">
+            <li><a href="https://business.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://business.twitter.com/"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/zacefron/?hl=ro"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Business"><i class="fas fa-globe"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- --------------------------------------------------------------------------->
+  <nav class="navbar navbar-expand-lg  ">
+    <div class="container">
+      <a class="navbar-brand" href="#">Life<span>Coach</span></a>
+
+      <form action="index-X.html" class="form-inline my-2 my-lg-0">
+        <input placeholder="Search" aria-label="Search">
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </form>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        <span class="menu">MENU</span>
+      </button>
+
+      <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="hovNav" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class=" hovNav" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class=" hovNav" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class=" hovNav" href="#">Stories</a>
+          </li>
+          <li class="nav-item">
+            <a class="hovNav" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="hovNav" href="#">Contact</a>
+          </li>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!------------------------------SECTION ONE ------------------>
+  <section class="sectionOne">
+    <div class="container-fluid">
+      <div class="owl-carousel owl-theme" id="carousel">
+        <div class="img-one img">
+          <!-- img -->
+          <div class="to">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+
+                  <div class="content">
+                    <p>
+                      We are your personal life coach
+                    </p>
+                    <h2>
+                      Discover the secrets of life
+                    </h2>
+                    <div class="button"><a class="btn btn-light" href="#" role="button">Connect with us</a></div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="img-two img">
+          <!-- img -->
+
+          <div class="to">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="content  ">
+                    <p>
+                      Improving the world
+                    </p>
+                    <h2>
+                      Restart your career to be successful
+                    </h2>
+                    <div class="button"><a onclick="close()" class="btn btn-light" href="#" role="button">Connect with
+                        us</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="img-three img">
+          <!-- img -->
+          <div class="to">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="content  ">
+                    <p>
+                      Welcome to lifecoach
+                    </p>
+                    <h2>
+                      We help to reach your goals
+                    </h2>
+                    <div class="button"><a class="btn btn-light" href="#" role="button">Connect with us</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- ------------------------- SECTION TWO ------------------------->
+  <section class="intro bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 d-flex">
+          <span class="icon">
+            <i class="fas fa-phone-alt"></i>
+          </span>
+          <div class="content">
+            <h4>Call us: +12 234 456 7890</h4>
+            <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex ">
+          <span class="icon">
+            <i class="far fa-clock"></i>
+          </span>
+          <div class="content">
+            <h4>Opening Hours</h4>
+            <p>Mon - Sat 7:00 AM - 8:00 PM / Sundays closed</p>
+          </div>
+        </div>
+        <div class="col-lg-4 BT">
+          <a href="" class="button btn">Make an Appointment</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ------------------------------SECTION THREE--------------------------->
+  <section class="three">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div data-aos="fade-up">
+
+            <h2 class="tittle">
+              We can help you in different situations
+            </h2>
+            <p class="yellow">WE OFFER SERVICES</p>
+
+          </div>
+        </div>
+
+
+
+
+
+        <div class="col-lg-3">
+          <div class="subC">
+
+
+            <span class="iconT">
+              <i class="fas fa-hand-holding-usd"></i>
+            </span>
+            <h4 class="subtit">Career & Business</h4>
+            <p class="contentP">Even the all-powerful Pointing has no control about the blind texts it is an almost
+              unorthographic.</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="subC">
+
+            <span class="iconT">
+              <i class="far fa-smile-wink"></i>
+            </span>
+            <h4 class="subtit">Mental & Physical Care</h4>
+            <p class="contentP">Even the all-powerful Pointing has no control about the blind texts it is an almost
+              unorthographic.</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="subC">
+
+            <span class="iconT">
+              <i class="fas fa-users"></i>
+            </span>
+            <h4 class="subtit">People & Relationships</h4>
+            <p class="contentP">Even the all-powerful Pointing has no control about the blind texts it is an almost
+              unorthographic.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="subC">
+
+            <span class="iconT">
+              <i class="fas fa-people-arrows"></i>
+            </span>
+            <h4 class="subtit">Life coaching</h4>
+            <p class="contentP">Even the all-powerful Pointing has no control about the blind texts it is an almost
+              unorthographic.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!---------------------------------------- SECTION FOUR --------------------------->
+  <section class="four">
+
+
+    <!--  -->
+    <div class="container" id="container">
+      <div class="row">
+        <div class="col-lg-12 ">
+          <div data-aos="fade-up">
+            <h2 class="tittle">
+              Why coaching work?
+            </h2>
+            <p class="yellow">OTHER SERVICES</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="video2 img-fluid">
+            <a class="link" href="https://www.youtube.com/watch?v=RFDaxPoGA6U"></a>
+            <a onclick="openV()" class="pulse-a"><i class="fas fa-play"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-left" style="height: auto;">
+          <div data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="subC">
+
+
+              <span class="iconT">
+                <i class="fas fa-file-invoice"></i>
+              </span>
+              <div class="content">
+                <h4 class="subtit">
+                  Accountability
+                </h4>
+                <p class="contentP">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <div data-aos="zoom-in-up" data-aos-duration="1100">
+            <div class="subC">
+              <span class="iconT">
+                <i class="fas fa-vials"></i>
+              </span>
+              <div class="content">
+                <h4 class="subtit">
+                  Expertise
+                </h4>
+                <p class="contentP">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <div data-aos="zoom-in-up" data-aos-duration="1200">
+            <div class="subC">
+
+              <span class="iconT">
+                <i class="fas fa-tachometer-alt"></i>
+              </span>
+              <div class="content">
+                <h4 class="subtit">
+                  Speed
+                </h4>
+                <p class="contentP">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div data-aos="zoom-in-up" data-aos-duration="1300">
+            <div class="subC">
+              <span class="iconT">
+                <i class="far fa-calendar-check"></i>
+              </span>
+              <div class="content">
+                <h4 class="subtit">
+                  Delivery
+                </h4>
+                <p class="contentP">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---------------------------------------- SECTION FIVE --------------------------->
+  <section class="five" id="five">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 firstC">
+          <div id="shiva"><span class="count">50</span></div>
+          <p>YEARS OF EXPERIENCED</p>
+        </div>
+        <div class="col-lg-3">
+          <div id="shiva"><span class="count">8500</span></div>
+          <p>SUCCESSFUL ENTREPRENEURS</p>
+        </div>
+        <div class="col-lg-3">
+          <div id="shiva"><span class="count">378</span></div>
+          <p>COMPANIES FOUNDED</p>
+        </div>
+        <div class="col-lg-3">
+          <div id="shiva"><span class="count">1200</span></div>
+          <p>BOOK, DVD'S AND PODCASTS</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---------------------------------------- SECTION SIX --------------------------->
+  <section class="six">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 ">
+          <div data-aos="fade-up">
+            <h2 class="tittle">
+              Happy Clients & Feedbacks
+            </h2>
+            <p class="yellow">TESTIMONIES</p>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-theme" id="carusel-two">
+            <div class="person" style="width: 350px;">
+              <div class="personChild">
+                <span class="check"><i class="fas fa-check"></i></span>
+                <p class="text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                  there live
+                  the blind texts.</p>
+                <div class="content">
+                  <span class="iconT person1">
+
+                  </span>
+                  <div class="name">
+                    <h5>Roger Scott</h5>
+                    <p>Marketing Manager</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class=" person " style="width: 350px;">
+              <div class="personChild">
+                <span class="check"><i class="fas fa-check"></i></span>
+                <p class="text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                  there live
+                  the blind texts.</p>
+                <div class="content">
+                  <span class="iconT  person2">
+
+                  </span>
+                  <div class="name">
+                    <h5>Roger Scott</h5>
+                    <p>Marketing Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="person  " style="width: 350px; ">
+              <div class="personChild">
+                <span class="check"><i class="fas fa-check"></i></span>
+                <p class="text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                  there live
+                  the blind texts.</p>
+                <div class="content">
+                  <span class="iconT  person3">
+
+                  </span>
+                  <div class="name">
+                    <h5>Roger Scott</h5>
+                    <p>Marketing Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="person " style="width: 350px; ">
+              <div class="personChild">
+                <span class="check"><i class="fas fa-check"></i></span>
+                <p class="text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                  there live
+                  the blind texts.</p>
+                <div class="content">
+                  <span class="iconT  person4">
+
+                  </span>
+                  <div class="name">
+                    <h5>Roger Scott</h5>
+                    <p>Marketing Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="person " style="width: 350px; ">
+              <div class="personChild">
+                <span class="check"><i class="fas fa-check"></i></span>
+                <p class="text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                  there live
+                  the blind texts.</p>
+                <div class="content">
+                  <span class="iconT  person5">
+
+                  </span>
+                  <div class="name">
+                    <h5>Roger Scott</h5>
+                    <p>Marketing Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---------------------------------------- SECTION SEVEN --------------------------->
+  <section class="seven">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 bottom">
+          <div data-aos="fade-up">
+            <h2 class="tittle">
+              Latest news from our blog
+            </h2>
+            <p class="yellow">NEWS & BLOG</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+
+
+
+        <div class="col-lg-4">
+          <div data-aos="flip-left" data-aos-duration="1300">
+            <div class="img">
+              <a class="img1" href="#">
+                <!-- IMG -->
+              </a>
+            </div>
+            <span class="data">JANUARY 30, 2020</span>
+            <span class="name">admin</span>
+            <span class="coment"><i class="fas fa-comments"></i> 3</span>
+
+            <p> <a href="#"> Even the all-powerful Pointing has no control about the blind texts </a></p>
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-4">
+          <div data-aos="flip-left" data-aos-duration="1300">
+            <div class="img">
+              <a class="img2" href="#">
+                <!-- IMG -->
+              </a>
+            </div>
+            <span class="data">JANUARY 30, 2020</span>
+            <span class="name">admin</span>
+            <span class="coment"><i class="fas fa-comments"></i> 3</span>
+
+            <p> <a href="#"> Even the all-powerful Pointing has no control about the blind texts </a></p>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div data-aos="flip-left" data-aos-duration="1300">
+            <div class="img">
+              <a class="img3" href="#">
+                <!-- IMG -->
+              </a>
+            </div>
+            <span class="data">JANUARY 30, 2020</span>
+            <span class="name">admin</span>
+            <span class="coment"><i class="fas fa-comments"></i> 3</span>
+
+            <p> <a href="#"> Even the all-powerful Pointing has no control about the blind texts </a></p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="subscribe ">
+
+
+            <p> Subcribe for our weekly tips</p>
+
+            <div class="input-group wi">
+              <input type="text" class=" em" placeholder="Enter email address" aria-label="Enter email address">
+              <input class="button" type="submit" value="Subscribe">
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---------------------------------------- SECTION EIGHT --------------------------->
+  <section class="eight">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div data-aos="fade-up">
+            <h2 class="tittle">
+              Life saving packages
+            </h2>
+            <p class="yellow">PRICE & PLANS</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 first">
+          <div class="content">
+            <div class="price d-flex">
+              <span class="euro">
+                <i class="fas fa-euro-sign"></i>
+              </span>
+              <h2>49</h2>
+            </div>
+
+            <h4>SINGLE SESSION</h4>
+            <p class="check"><i class="fas fa-check"></i> 1 month dedicated training</p>
+            <p class="check"><i class="fas fa-check"></i> 24/7 in touch on the phone</p>
+            <p class="check"><i class="fas fa-check"></i> Consultation hours</p>
+            <p class="check"><i class="fas fa-check"></i> Personal visit</p>
+            <p class="check"><i class="fas fa-check"></i> meet & greet</p>
+          </div>
+          <a href="#" class="btn">Get Started</a>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="content">
+            <div class="price d-flex">
+              <span class="euro">
+                <i class="fas fa-euro-sign"></i>
+              </span>
+              <h2>79</h2>
+            </div>
+
+            <h4>PERSONAL SESSION</h4>
+            <p class="check"><i class="fas fa-check"></i> 1 month dedicated training</p>
+            <p class="check"><i class="fas fa-check"></i> 24/7 in touch on the phone</p>
+            <p class="check"><i class="fas fa-check"></i> Consultation hours</p>
+            <p class="check"><i class="fas fa-check"></i> Personal visit</p>
+            <p class="check"><i class="fas fa-check"></i> meet & greet</p>
+          </div>
+          <a href="#" class="btn">Get Started</a>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="content">
+            <div class="price d-flex">
+              <span class="euro">
+                <i class="fas fa-euro-sign"></i>
+              </span>
+              <h2>109</h2>
+            </div>
+
+            <h4>SINGLE COACHING</h4>
+            <p class="check"><i class="fas fa-check"></i> 1 month dedicated training</p>
+            <p class="check"><i class="fas fa-check"></i> 24/7 in touch on the phone</p>
+            <p class="check"><i class="fas fa-check"></i> Consultation hours</p>
+            <p class="check"><i class="fas fa-check"></i> Personal visit</p>
+            <p class="check"><i class="fas fa-check"></i> meet & greet</p>
+          </div>
+          <a href="#" class="btn">Get Started</a>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="content">
+            <div class="price d-flex">
+              <span class="euro">
+                <i class="fas fa-euro-sign"></i>
+              </span>
+              <h2>149</h2>
+            </div>
+
+            <h4>LIFE COACHING</h4>
+            <p class="check"><i class="fas fa-check"></i> 1 month dedicated training</p>
+            <p class="check"><i class="fas fa-check"></i> 24/7 in touch on the phone</p>
+            <p class="check"><i class="fas fa-check"></i> Consultation hours</p>
+            <p class="check"><i class="fas fa-check"></i> Personal visit</p>
+            <p class="check"><i class="fas fa-check"></i> meet & greet</p>
+          </div>
+          <a href="#" class="btn">Get Started</a>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <!---------------------------------------- Footer --------------------------->
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="content">
+            <!-- ----------------- -->
+            <div class="child first">
+              <h2>About us</h2>
+              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <div class="social">
+                <div data-aos="fade-up" data-aos-duration="1000">
+                  <a href="https://business.twitter.com/" class="icon firstA">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1200">
+                  <a href="https://business.facebook.com/" class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1300">
+                  <a href="https://www.instagram.com/zacefron/?hl=ro" class="icon">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- -------------------------- -->
+        <div class="col-lg-6">
+
+
+          <div class="child">
+            <h2>Courses</h2>
+            <a href="" class="link">Painting</a>
+            <a href="" class="link">Sketch</a>
+            <a href="" class="link">Drawing</a>
+            <a href="" class="link">Sculpture</a>
+          </div>
+          <!-- -------------------------- -->
+
+          <div class="child">
+            <h2>Topics</h2>
+            <a href="" class="link">Accreditation</a>
+            <a href="" class="link">Disclosure</a>
+            <a href="" class="link">Student Code</a>
+            <a href="" class="link">Job Opportunities</a>
+          </div>
+          <!-- -------------------------- -->
+
+          <div class="child">
+            <h2>Resources</h2>
+            <a href="" class="link">Security</a>
+            <a href="" class="link">Global</a>
+            <a href="" class="link">Charts</a>
+            <a href="" class="link">Privacy</a>
+          </div>
+        </div>
+
+
+        <!---- -------------------------- -->
+        <div class="col-lg-3 last">
+          <h2>Free consultation</h2>
+
+          <div class="form-group">
+            <input id="name" type="name" class="form-control" placeholder="Your Name">
+          </div>
+          <div class="form-group">
+            <input id="email" class="form-control" placeholder="Your Email">
+          </div>
+          <div class="form-group">
+            <input id="subject" type="subject" class="form-control" placeholder="Subject">
+          </div>
+          <div class="form-group">
+            <textarea name="" id="textarea" cols="30" rows="3" placeholder="Message"></textarea>
+
+          </div>
+          <button onclick="validation()" id="send" type="submit" class="btn">Submit</button>
+          <p class="success" id="success"> Sent Successfully!</p>
+        </div>
+        <div class="col-lg-9">
+          <p class="absolut">Copyright ©2020 All rights reserved | This template is made with <i
+              class="fas fa-heart"></i> by <a href="index.html"> Colorlib.com</a></p>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="../Project/jQuery/jQuery.js"></script>
+  <script src="./OWL-Carousel/dist/owl.carousel.min.js"></script>
+  <script src="./COMPONETS/script.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 600,
+
+    });
+  </script>
+</body>
+
+</html>
